@@ -12,8 +12,8 @@ export default function HardwareSet(props: {id: number, capacity: number}) {
                         <div>{available}/{props.capacity}</div> 
                     </Stack>
                     <TextField label="Quantity" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}/>
-                    <Button variant="contained">Check In</Button>
-                    <Button variant="contained">Check Out</Button>
+                    <Button variant="contained" onClick={() => alert("Not Implemented")}>Check In</Button>
+                    <Button variant="contained" onClick={() => alert("Not Implemented")}>Check Out</Button>
                 </Stack>
             </Paper>
         </>
